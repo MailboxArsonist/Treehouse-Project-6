@@ -2,10 +2,10 @@
   "name": "treehouse-project-6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devserver": "./node_modules/nodemon/bin/nodemon.js index.js"
+    "devserver": "./node_modules/nodemon/bin/nodemon.js app.js"
   },
   "author": "Matthew Dodd",
   "license": "ISC",
