@@ -32,6 +32,7 @@ app.get('/project/:id', (req, res) => {
     const live_link = project.live_link;
     const github_link = project.github_link;
     const image_urls = project.image_urls;
+    const technologies = project.technologies;
     console.log(project);
     res.render('project', {
         project,
@@ -39,7 +40,8 @@ app.get('/project/:id', (req, res) => {
         description,
         live_link,
         github_link,
-        image_urls
+        image_urls,
+        technologies
     });
 });
 
