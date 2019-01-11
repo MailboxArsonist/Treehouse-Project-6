@@ -6,7 +6,7 @@
             "technologies" : ["JavaScript"],
             "live_link" : "https://google.com",
             "github_link" : "https://github.com",
-            "image_urls" : ["./img/quotes-main.png","./img/quotes-second.png","./img/quotes-third.png"]
+            "image_urls" : ["/static/img/quotes-main.png","/static/img/quotes-second.png","/static/img/quotes-third.png"]
         },
         {
             "id" : 1,
@@ -14,7 +14,7 @@
             "technologies" : ["JavaScript", "HTML", "CSS"],
             "live_link" : "https://google.com",
             "github_link" : "https://github.com",
-            "image_urls" : ["./img/pagination-main.png","./img/pagination-search.png","./img/pagination-second.png"]
+            "image_urls" : ["/static/img/pagination-main.png","./img/pagination-search.png","./img/pagination-second.png"]
         },
         {
             "id" : 2,
@@ -22,7 +22,7 @@
             "technologies" : ["JavaScript", "CSS", "jQuery"],
             "live_link" : "https://google.com",
             "github_link" : "https://github.com",
-            "image_urls" : ["./img/interactive-form-main.png","./img/interactive-form-validation.png","./img/interactive-form-ccvalidation.png"]
+            "image_urls" : ["/static/img/interactive-form-main.png","/static/img/interactive-form-validation.png","/static/img/interactive-form-ccvalidation.png"]
         },
         {
             "id" : 3,
@@ -30,7 +30,7 @@
             "technologies" : ["JavaScript", "CSS", "Object-Oriented JavaScript"],
             "live_link" : "https://google.com",
             "github_link" : "https://github.com",
-            "image_urls" : ["./img/phrasehunter-main.png","./img/phrasehunter-start.png","./img/phrasehunter-gameplay.png","./img/phrasehunter-end.png"]
+            "image_urls" : ["/static/img/phrasehunter-main.png","/static/img/phrasehunter-start.png","/static/img/phrasehunter-gameplay.png","/static/img/phrasehunter-end.png"]
         },
         {
             "id" : 4,
@@ -38,7 +38,7 @@
             "technologies" : ["javaScript", "CSS", "Fetch API"],
             "live_link" : "https://google.com",
             "github_link" : "https://github.com",
-            "image_urls" : ["./img/api-main.png","./img/api-employeecard.png","./img/api-search.png"]
+            "image_urls" : ["/static/img/api-main.png","/static/img/api-employeecard.png","/static/img/api-search.png"]
         }
 
     ]
