@@ -3,13 +3,18 @@ const express = require('express');
 //Create express app
 const app = express();
 
+//Require json file ALL PROJECT DATA IS STPRED HERE
+const json = require('./data.json');
+
+
 
 
 
 //
 app.get('/', (req, res, next) => {
-    const user = 'hello user';
-    res.send(`<h1>${user}</h1>`);
+    const imgs = json.projects[0].image_urls[0];
+    console.log(json.projects[0]);
+    res.send(`<img src='${imgs}'</img>`);
 });
 
 
