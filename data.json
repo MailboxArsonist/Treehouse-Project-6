@@ -4,46 +4,46 @@
             "id" : 0,
             "project_name" : "A Random Quote Generator",
             "description" : "An app that displays random famous quotes each time a button is clicked.",
-            "technologies" : ["JavaScript"],
-            "live_link" : "https://google.com",
-            "github_link" : "https://github.com",
-            "image_urls" : ["/static/img/quotes-main.png","/static/img/quotes-second.png","/static/img/quotes-third.png"]
+            "technologies" : ["JavaScript", "HTML", "CSS"],
+            "live_link" : "https://mailboxarsonist.github.io/Treehouse-Project-1/",
+            "github_link" : "https://github.com/MailboxArsonist/Treehouse-Project-1",
+            "image_urls" : ["/static/img/quotes-main.png","/static/img/quotes-second.png","/static/img/quotes-third.png","/static/img/quotes-fourth.png"]
         },
         {
             "id" : 1,
             "project_name" : "List Pagination and Filtering",
             "description" : "An app that displays random famous quotes each time a button is clicked.",
             "technologies" : ["JavaScript", "HTML", "CSS"],
-            "live_link" : "https://google.com",
-            "github_link" : "https://github.com",
-            "image_urls" : ["/static/img/pagination-main.png","./img/pagination-search.png","./img/pagination-second.png"]
+            "live_link" : "https://mailboxarsonist.github.io/Treehouse-Project-2/",
+            "github_link" : "https://github.com/MailboxArsonist/Treehouse-Project-2",
+            "image_urls" : ["/static/img/pagination-main.png","/static/img/pagination-search.png","/static/img/pagination-second.png","/static/img/pagination-button.png"]
         },
         {
             "id" : 2,
             "project_name" : "Interactive Form",
             "description" : "An interactive form for a fictituos event. The page has dynamically added form validation, ensuring a user enters correctly formatted information.",
-            "technologies" : ["JavaScript", "CSS", "jQuery"],
-            "live_link" : "https://google.com",
-            "github_link" : "https://github.com",
-            "image_urls" : ["/static/img/interactive-form-main.png","/static/img/interactive-form-validation.png","/static/img/interactive-form-ccvalidation.png"]
+            "technologies" : ["JavaScript", "CSS", "HTML","jQuery"],
+            "live_link" : "https://mailboxarsonist.github.io/Treehouse-Project-3/",
+            "github_link" : "https://github.com/MailboxArsonist/Treehouse-Project-3",
+            "image_urls" : ["/static/img/interactive-form-main.png","/static/img/interactive-form-validation.png","/static/img/interactive-form-ccvalidation.png","/static/img/interactive-form-checkbox.png"]
         },
         {
             "id" : 3,
             "project_name" : "OOP Game Show App",
             "description" : "A 'hangman' style game for guessing the letters in retro video games.",
-            "technologies" : ["JavaScript", "CSS", "Object-Oriented JavaScript"],
-            "live_link" : "https://google.com",
-            "github_link" : "https://github.com",
-            "image_urls" : ["/static/img/phrasehunter-main.png","/static/img/phrasehunter-start.png","/static/img/phrasehunter-gameplay.png","/static/img/phrasehunter-end.png"]
+            "technologies" : ["HTML", "CSS", "Object-Oriented JavaScript"],
+            "live_link" : "https://mailboxarsonist.github.io/Treehouse-Project-4/",
+            "github_link" : "https://github.com/MailboxArsonist/Treehouse-Project-4",
+            "image_urls" : ["/static/img/phrasehunter-main.png","/static/img/phrasehunter-start.png","/static/img/phrasehunter-full.png","/static/img/phrasehunter-end.png"]
         },
         {
             "id" : 4,
             "project_name" : "Public API Requests ",
             "description" : "This project makes a request to an API for employee information. It then displays 10 employees. Employee cards can be clicked on to display a larger card with more information.",
-            "technologies" : ["javaScript", "CSS", "Fetch API"],
-            "live_link" : "https://google.com",
-            "github_link" : "https://github.com",
-            "image_urls" : ["/static/img/api-main.png","/static/img/api-employeecard.png","/static/img/api-search.png"]
+            "technologies" : ["JavaScript", "HTML","CSS", "Fetch API"],
+            "live_link" : "https://mailboxarsonist.github.io/Treehouse-Project-5/",
+            "github_link" : "https://github.com/MailboxArsonist/Treehouse-Project-5",
+            "image_urls" : ["/static/img/api-main.png","/static/img/api-employeecard.png","/static/img/api-search.png","/static/img/api-full.png"]
         }
 
     ]
