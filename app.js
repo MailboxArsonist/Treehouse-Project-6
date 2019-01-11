@@ -20,13 +20,27 @@ app.get('/', (req, res, next) => {
     res.render('index', {project:project});
 });
 
-app.get('/about', (req, res, next) => {
+app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get('/project', (req, res, next) => {
-    console.log(req.param);
-    res.render('project');
+app.get('/project/:id', (req, res) => {
+    let {id} = req.params;
+    const project = json.projects[id];
+    const title = project.project_name;
+    const description = project.description
+    const live_link = project.live_link;
+    const github_link = project.github_link;
+    const image_urls = project.image_urls;
+    console.log(project);
+    res.render('project', {
+        project,
+        title,
+        description,
+        live_link,
+        github_link,
+        image_urls
+    });
 });
 
 
