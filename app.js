@@ -33,7 +33,6 @@ app.get('/project/:id', (req, res) => {
     const github_link = project.github_link;
     const image_urls = project.image_urls;
     const technologies = project.technologies;
-    console.log(project);
     res.render('project', {
         project,
         title,
@@ -45,17 +44,21 @@ app.get('/project/:id', (req, res) => {
     });
 });
 
+app.use((req, res, next) => {
+    const err = new Error('We cannot find this page');
+    err.status = 404;
+    next(err);
+});
 
-
-
-
-
-//
-// app.get('/', (req, res, next) => {
-//     const imgs = json.projects[0].image_urls[0];
-//     console.log(json.projects[0]);
-//     res.send(`<img src='${imgs}'</img>`);
-// });
+app.use((err, req, res, next) => {
+    res.status(err.status||500);
+    console.log(`Oh no-- ${err.message}  Error:${res.statusCode}`);
+    res.render('error', {
+        message : err.message,
+        status : res.statusCode,
+        stack : err.stack
+    });
+});
 
 
 //Listen on localhost port:3000
