@@ -2,7 +2,8 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/')
+      i(class="fas fa-arrow-circle-left fa-4x")
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -34,9 +35,13 @@ block content
           li matthew.dodd93@gmail.com
 
   
-        a.button.expanded(href='https://www.linkedin.com/in/matthew-dodd-5ab50315a/') LinkedIn
-        a.button.expanded(href='https://github.com/MailboxArsonist') GitHub
-        a.button.expanded(href='https://twitter.com/') Twitter
+        a.button.expanded(href='https://www.linkedin.com/in/matthew-dodd-5ab50315a/', target="_blank") LinkedIn   
+          i(class="fab fa-linkedin-in")
+        a.button.expanded(href='https://github.com/MailboxArsonist', target="_blank") GitHub   
+          i(class="fab fa-github")
+        a.button.expanded(href='https://twitter.com/', target="_blank") Twitter   
+          i(class="fab fa-twitter")
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/')
+      i(class="fas fa-arrow-circle-left fa-4x")
   
