@@ -148,3 +148,18 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+a .thumbnail{
+  border-radius: 3px;
+}
+a .thumbnail:hover{
+  transform: scale(1.01);
+  -webkit-box-shadow: 2px 2px 7px 0px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    2px 2px 7px 0px rgba(50, 50, 50, 0.77);
+  box-shadow:         2px 2px 7px 0px rgba(50, 50, 50, 0.77);
+}
+
+
+#my-info{
+  background-image: url('../what-the-hex-dark.png');
+}
+
